@@ -1,0 +1,75 @@
+/* -------------------------------------------------------
+   Basic Styles 
+ ------------------------------------------------------ */
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-family: helvetica, arial, sans-serif;
+}
+
+body { background: #cccccc; }
+
+.wrapper {
+	background: #fff;
+	width: 960px; /* change to max-width for responsive */
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1 { 
+	font-size: 24px; 
+	margin-bottom: 20px;
+}
+
+h2 { 
+	font-size: 18px; 
+	margin-bottom: 10px;
+	color: ;
+}
+
+/* -------------------------------------------------------
+   Grid Styles 
+ ------------------------------------------------------ */
+.grid { margin-bottom: 30px; }
+
+.grid-row:before,
+.grid-row:after {
+    content:"";
+    display:table;
+}
+
+.grid-row:after { clear:both; }
+.grid-row { zoom:1; } /* For IE 6/7 (trigger hasLayout) */
+
+.grid-row { 
+	background: rgba(255, 0, 0, 0.7); 
+	margin-bottom: 10px;
+	clear: both;
+}
+
+.grid-col {
+	float: left;
+}
+
+.col-4of4 { width: 100% }
+.col-3of4 { width: 75%; }
+.col-2of4 { width: 50%; }
+.col-1of4 { width: 25%; }
+
+
+/* -------------------------------------------------------
+   Grid Presentation 
+ ------------------------------------------------------ */
+.grid-col:nth-of-type(1n) { background: rgba(0, 255, 255, 0.9); }
+.grid-col:nth-of-type(2n) { background: rgba(0, 255, 255, 0.7); }
+.grid-col:nth-of-type(3n) { background: rgba(0, 255, 255, 0.5); }
+.grid-col:nth-of-type(4n) { background: rgba(0, 255, 255, 0.3); }
+
+/* -------------------------------------------------------
+   Module Styles 
+ ------------------------------------------------------ */
+.module {
+	padding: 20px;
+	text-align: center;
+}
