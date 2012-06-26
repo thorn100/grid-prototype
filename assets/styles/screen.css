@@ -57,6 +57,9 @@ h2 {
 .col-2of4 { width: 50%; }
 .col-1of4 { width: 25%; }
 
+.col-1of3 { width: 33.3333%; }
+.col-2of3 { width: 66.6666%; }
+
 
 /* -------------------------------------------------------
    Grid Presentation 
