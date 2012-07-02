@@ -30,7 +30,7 @@ h2 {
 /* -------------------------------------------------------
    Grid Styles 
  ------------------------------------------------------ */
-.grid { margin-bottom: 30px; }
+.grid-wrapper { margin-bottom: 30px; }
 
 .grid-group:before,
 .grid-group:after {
