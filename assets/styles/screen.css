@@ -32,16 +32,16 @@ h2 {
  ------------------------------------------------------ */
 .grid { margin-bottom: 30px; }
 
-.grid-row:before,
-.grid-row:after {
+.grid-group:before,
+.grid-group:after {
     content:"";
     display:table;
 }
 
-.grid-row:after { clear:both; }
-.grid-row { zoom:1; } /* For IE 6/7 (trigger hasLayout) */
+.grid-group:after { clear:both; }
+.grid-group { zoom:1; } /* For IE 6/7 (trigger hasLayout) */
 
-.grid-row { 
+.grid-group { 
 	background: rgba(255, 0, 0, 0.7); 
 	margin-bottom: 10px;
 	clear: both;
@@ -58,8 +58,10 @@ h2 {
 .col-3of4 { width: 75%; }
 
 /* of 3 */
-.col-1of3 { width: 33.3333%; }
-.col-2of3 { width: 66.6666%; }
+.col-1of3 { width: 33%; }
+.col-1of3:first-child { width: 34%; } 
+.col-2of3 { width: 66%; }
+.col-2of3:first-child { width: 67%; }
 
 /* of 5 */
 .col-1of5 { width: 20%; }
