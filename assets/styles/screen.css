@@ -25,7 +25,6 @@ h1 {
 h2 { 
 	font-size: 18px; 
 	margin-bottom: 10px;
-	color: ;
 }
 
 /* -------------------------------------------------------
@@ -68,6 +67,11 @@ h2 {
 .col-3of5 { width: 60%; }
 .col-4of5 { width: 80%; }
 
+.col-centered {
+	float: none; 
+	margin: 0 auto;
+}
+
 /* -------------------------------------------------------
    Grid Presentation 
  ------------------------------------------------------ */
@@ -81,6 +85,6 @@ h2 {
    Module Styles 
  ------------------------------------------------------ */
 .module {
-	padding: 20px;
+	padding: 10px;
 	text-align: center;
 }
