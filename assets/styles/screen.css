@@ -74,6 +74,14 @@ h2 {
 	margin: 0 auto;
 }
 
+/* Prefix */
+.prefix-1of2,
+.prefix-2of4 { margin-left: 50%; }
+.prefix-1of3 { margin-left: 33%; }
+.prefix-2of3 { margin-left: 66%; }
+.prefix-1of4 { margin-left: 25%; }
+.prefix-3of4 { margin-left: 75%; }
+
 /* -------------------------------------------------------
    Grid Presentation 
  ------------------------------------------------------ */
