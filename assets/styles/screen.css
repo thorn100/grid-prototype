@@ -39,7 +39,6 @@ h2 {
 }
 
 .grid-group:after { clear:both; }
-.grid-group { zoom:1; } /* For IE 6/7 (trigger hasLayout) */
 
 .grid-group { 
 	background: rgba(255, 0, 0, 0.7); 
