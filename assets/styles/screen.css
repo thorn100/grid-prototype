@@ -28,7 +28,7 @@ h2 {
 }
 
 /* -------------------------------------------------------
-   Grid Styles 
+   Grid Styles
  ------------------------------------------------------ */
 .grid-wrapper { margin-bottom: 30px; }
 
@@ -51,17 +51,19 @@ h2 {
 
 .col-1of1 { width: 100% }
 
-/* of 4 */
-.col-1of4 { width: 25%; }
-.col-1of2,
-.col-2of4 { width: 50%; }
-.col-3of4 { width: 75%; }
+/* of 2 */
+.col-1of2 { width: 50%; }
 
 /* of 3 */
 .col-1of3 { width: 33%; }
-.col-1of3:first-child { width: 34%; } 
+.col-1of3:first-child { width: 34%; }
 .col-2of3 { width: 66%; }
 .col-2of3:first-child { width: 67%; }
+
+/* of 4 */
+.col-1of4 { width: 25%; }
+.col-2of4 { width: 50%; }
+.col-3of4 { width: 75%; }
 
 /* of 5 */
 .col-1of5 { width: 20%; }
@@ -69,8 +71,15 @@ h2 {
 .col-3of5 { width: 60%; }
 .col-4of5 { width: 80%; }
 
+/* of 6 */
+.col-1of6 { width: 16.667%; }
+.col-2of6 { width: 33.333%; }
+.col-3of6 { width: 50%; }
+.col-4of6 { width: 66.666%; }
+.col-5of6 { width: 83.333%; }
+
 .col-centered {
-	float: none; 
+	float: none;
 	margin: 0 auto;
 }
 
@@ -81,6 +90,10 @@ h2 {
 .prefix-2of3 { margin-left: 66%; }
 .prefix-1of4 { margin-left: 25%; }
 .prefix-3of4 { margin-left: 75%; }
+.prefix-1of5 { margin-left: 20%; }
+.prefix-2of5 { margin-left: 40%; }
+.prefix-3of5 { margin-left: 60%; }
+.prefix-4of5 { margin-left: 80%; }
 
 /* Prefix */
 .suffix-1of2,
@@ -89,9 +102,13 @@ h2 {
 .suffix-2of3 { margin-right: 66%; }
 .suffix-1of4 { margin-right: 25%; }
 .suffix-3of4 { margin-right: 75%; }
+.suffix-1of5 { margin-right: 20%; }
+.suffix-2of5 { margin-right: 40%; }
+.suffix-3of5 { margin-right: 60%; }
+.suffix-4of5 { margin-right: 80%; }
 
 /* -------------------------------------------------------
-   Grid Presentation 
+   Grid Presentation
  ------------------------------------------------------ */
 .grid-col:nth-of-type(1n) { background: rgba(0, 255, 255, 0.9); }
 .grid-col:nth-of-type(2n) { background: rgba(0, 255, 255, 0.7); }
@@ -100,7 +117,7 @@ h2 {
 .grid-col:nth-of-type(5n) { background: rgba(0, 255, 255, 0.1); }
 
 /* -------------------------------------------------------
-   Module Styles 
+   Module Styles
  ------------------------------------------------------ */
 .module {
 	padding: 10px;
