@@ -49,16 +49,17 @@ h2 {
 
 .grid-col {	float: left; }
 
+[class*="of3"]:last-child { float: right; }
+[class*="of6"]:last-child { float: right; }
+
 .col-1of1 { width: 100% }
 
 /* of 2 */
 .col-1of2 { width: 50%; }
 
 /* of 3 */
-.col-1of3 { width: 33%; }
-.col-1of3:first-child { width: 34%; }
-.col-2of3 { width: 66%; }
-.col-2of3:first-child { width: 67%; }
+.col-1of3 { width: 33.333%; }
+.col-2of3 { width: 66.667%; }
 
 /* of 4 */
 .col-1of4 { width: 25%; }
@@ -75,7 +76,7 @@ h2 {
 .col-1of6 { width: 16.667%; }
 .col-2of6 { width: 33.333%; }
 .col-3of6 { width: 50%; }
-.col-4of6 { width: 66.666%; }
+.col-4of6 { width: 66.667%; }
 .col-5of6 { width: 83.333%; }
 
 .col-centered {
