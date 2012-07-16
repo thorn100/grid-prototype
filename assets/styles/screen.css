@@ -109,8 +109,7 @@ h2 {
 /* -------------------------------------------------------
    Grid Presentation
  ------------------------------------------------------ */
-.grid-group { background: #FF4C4C; background: rgba(255, 0, 0, 0.7); 
- }
+.grid-group { background: #FF4C4C; background: rgba(255, 0, 0, 0.7); }
 .grid-col:nth-of-type(1n) { background: #19EDED; background: rgba(0, 255, 255, 0.9); }
 .grid-col:nth-of-type(2n) { background: #4CC9C9; background: rgba(0, 255, 255, 0.7); }
 .grid-col:nth-of-type(3n) { background: #7FA5A5; background: rgba(0, 255, 255, 0.5); }
