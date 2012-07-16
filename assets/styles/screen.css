@@ -45,8 +45,13 @@ h2 {
 	clear: both;
 }
 
-.grid-col {	float: left; }
+.grid-col {	
+    float: left; 
+    position: relative;
+}
+
 .col-last { float: right; }
+.end { float: left; } 
 
 /* of 1 */
 .col-1of1 { width: 100% }
@@ -106,6 +111,24 @@ h2 {
 .suffix-4of5 { margin-right: 80%; }
 [class*="suffix"].col-last { float: left; }
 
+/* Push */
+.push-1of2 { left: 50%; }
+.push-1of6 { left: 16.667%; }
+.push-1of3,
+.push-2of6 { left: 33.333%; }
+.push-2of3,
+.push-4of6 { left: 66.667%; }
+.push-5of6 { left: 83.333%; }
+
+/* Pull */
+.pull-1of2 { right: 50%; }
+.pull-1of6 { right: 16.667%; }
+.pull-1of3,
+.pull-2of6 { right: 33.333%; }
+.pull-2of3,
+.pull-4of6 { right: 66.667%; }
+.pull-5of6 { right: 83.333%; }
+
 /* -------------------------------------------------------
    Grid Presentation
  ------------------------------------------------------ */
@@ -120,6 +143,6 @@ h2 {
    Module Styles
  ------------------------------------------------------ */
 .module {
-	padding: 10px;
+	padding: 5px 10px;
 	text-align: center;
 }
