@@ -12,7 +12,7 @@ body { background: #cccccc; }
 
 .container {
 	background: #fff;
-	width: 960px; /* change to max-width for responsive */
+	max-width: 960px; /* change to max-width for responsive */
 	margin: 0 auto;
 	padding: 20px;
 }
@@ -84,34 +84,31 @@ h2 {
 .offset-2  { margin-left: 16.6667%; }
 .offset-1  { margin-left: 8.3333%; }
 
-.prefix-1of2,
-.prefix-2of4 { margin-left: 50%; }
-.prefix-1of3 { margin-left: 33.333%; }
-.prefix-2of3 { margin-left: 66.667%; }
-.prefix-1of4 { margin-left: 25%; }
-.prefix-3of4 { margin-left: 75%; }
-.prefix-1of5 { margin-left: 20%; }
-.prefix-2of5 { margin-left: 40%; }
-.prefix-3of5 { margin-left: 60%; }
-.prefix-4of5 { margin-left: 80%; }
-
 /* Push */
-.push-1of2 { left: 50%; }
-.push-1of6 { left: 16.667%; }
-.push-1of3,
-.push-2of6 { left: 33.333%; }
-.push-2of3,
-.push-4of6 { left: 66.667%; }
-.push-5of6 { left: 83.333%; }
+.push-11 { left: 91.667%; }
+.push-10 { left: 83.333%; }
+.push-9  { left: 75%; }
+.push-8  { left: 66.667%; }
+.push-7  { left: 58.3333%; }
+.push-6  { left: 50%; }
+.push-5  { left: 41.6667%; }
+.push-4  { left: 33.3333%; }
+.push-3  { left: 25%; }
+.push-2  { left: 16.6667%; }
+.push-1  { left: 8.3333%; }
 
 /* Pull */
-.pull-1of2 { right: 50%; }
-.pull-1of6 { right: 16.667%; }
-.pull-1of3,
-.pull-2of6 { right: 33.333%; }
-.pull-2of3,
-.pull-4of6 { right: 66.667%; }
-.pull-5of6 { right: 83.333%; }
+.pull-11 { right: 91.667%; }
+.pull-10 { right: 83.333%; }
+.pull-9  { right: 75%; }
+.pull-8  { right: 66.667%; }
+.pull-7  { right: 58.3333%; }
+.pull-6  { right: 50%; }
+.pull-5  { right: 41.6667%; }
+.pull-4  { right: 33.3333%; }
+.pull-3  { right: 25%; }
+.pull-2  { right: 16.6667%; }
+.pull-1  { right: 8.3333%; }
 
 /* -------------------------------------------------------
    Grid Presentation
